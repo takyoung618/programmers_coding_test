@@ -5,7 +5,7 @@
 // 0 < num1 ≤ 100
 // 0 < num2 ≤ 100
 
-const solution(num1, num2) {
+function solution(num1, num2) {
     const answer = num1 % num2;
     return answer;
 }
