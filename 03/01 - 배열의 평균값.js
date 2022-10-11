@@ -6,3 +6,8 @@
 // 0 ≤ numbers의 원소 ≤ 1,000
 // 1 ≤ numbers의 길이 ≤ 100
 // 정답의 소수 부분이 .0 또는 .5인 경우만 입력으로 주어집니다.
+
+function solution(numbers) {
+    answer = (numbers[0] + numbers[numbers.length - 1]) /2;
+    return answer;
+}
