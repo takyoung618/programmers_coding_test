@@ -6,6 +6,7 @@
 // 1 ≤ str1의 길이 ≤ 100
 // 1 ≤ str2의 길이 ≤ 100
 
+// 조건문으로 푼 풀이
 function solution(str1, str2) {
     let answer = str1;
   	if(str1.includes(str2)){
@@ -14,3 +15,6 @@ function solution(str1, str2) {
       return 2
     }
 }
+
+// includes 함수를 사용하여 포함 여부를 확인하고 삼항 연산자로 값을 반환함
+const solution = (str1, str2) => str1.includes(str2) ? 1 : 2
