@@ -5,3 +5,14 @@
 // 제한 조건
 // n은 길이 10,000이하인 자연수입니다.
 
+function solution(n) {
+    let result = ""
+    for(let i = 1; i<=n; i++){
+        if(i % 2 === 0){
+            result += "박"
+        }else{
+            result += "수"
+        }
+    }
+    return result
+}
